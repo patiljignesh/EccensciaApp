@@ -99,13 +99,12 @@
 		01B5D92B26BC00D300B126A8 /* EccensciaApp */ = {
 			isa = PBXGroup;
 			children = (
+				01B5D93A26BC00D800B126A8 /* Info.plist */,
+				01B5D95E26BC08B800B126A8 /* Supporting */,
 				01B5D92C26BC00D300B126A8 /* AppDelegate.swift */,
 				01B5D92E26BC00D300B126A8 /* SceneDelegate.swift */,
-				01B5D93026BC00D300B126A8 /* ViewController.swift */,
-				01B5D93226BC00D300B126A8 /* Main.storyboard */,
-				01B5D93526BC00D800B126A8 /* Assets.xcassets */,
-				01B5D93726BC00D800B126A8 /* LaunchScreen.storyboard */,
-				01B5D93A26BC00D800B126A8 /* Info.plist */,
+				01B5D95D26BC089E00B126A8 /* Controller */,
+				01B5D95C26BC089000B126A8 /* Views */,
 			);
 			path = EccensciaApp;
 			sourceTree = "<group>";
@@ -126,6 +125,31 @@
 				01B5D95026BC00D800B126A8 /* Info.plist */,
 			);
 			path = EccensciaAppUITests;
+			sourceTree = "<group>";
+		};
+		01B5D95C26BC089000B126A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01B5D93726BC00D800B126A8 /* LaunchScreen.storyboard */,
+				01B5D93226BC00D300B126A8 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01B5D95D26BC089E00B126A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01B5D93026BC00D300B126A8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01B5D95E26BC08B800B126A8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				01B5D93526BC00D800B126A8 /* Assets.xcassets */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
